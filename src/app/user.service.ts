@@ -5,15 +5,13 @@ import { User } from './user.model';
   providedIn: 'root',
 })
 export class UserService {
-  users: User[] = [
-    new User(1, 'John', 'john@example.com'),
-    new User(2, 'Doe', 'doe@example.com'),
+  private users: User[] = [
+    new User(1, 'John', 'Doe', 'john@example.com'),
+    new User(2, 'Jane', 'Smith', 'jane@example.com'),
   ];
 
-  constructor() {}
-
-  getUsers() {
-    return this.users;
+  getUsers(): User[] {
+    return this.users.slice();
   }
 
   addUser(user: User) {

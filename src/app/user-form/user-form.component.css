@@ -3,6 +3,13 @@
   margin: 0 auto;
 }
 
+.user-title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
 .form-control {
   margin-bottom: 10px;
 }

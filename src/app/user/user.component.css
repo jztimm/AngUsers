@@ -2,6 +2,16 @@
   width: 400px;
   margin: 0 auto;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.user-title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
 }
 
 .user-card {
@@ -9,4 +19,21 @@
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-email {
+  color: #888;
 }
