@@ -1,0 +1,12 @@
+.user-container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
